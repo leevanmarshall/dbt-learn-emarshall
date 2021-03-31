@@ -1,4 +1,7 @@
-with customers as (
+
+
+      create or replace transient table analytics.analytics.elm_customers  as
+      (with customers as (
     select * from analytics.analytics.stg_elm_customers
 ),
 orders as (
@@ -37,3 +40,5 @@ final as (
     left join customer_orders using (customer_id)
 )
 select * from final
+      );
+    
