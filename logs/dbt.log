@@ -324,3 +324,295 @@ There are 1 unused configuration paths:
 2021-03-31 18:56:00.343332 (Thread-33): handling status request
 2021-03-31 18:56:00.343771 (Thread-33): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11b2a8b0>]}
 2021-03-31 18:56:00.344650 (Thread-33): sending response (<Response 874 bytes [200 OK]>) to 10.0.12.206
+2021-03-31 18:56:04.014421 (Thread-34): Parsing macros/adapters.sql
+2021-03-31 18:56:04.046277 (Thread-34): Parsing macros/catalog.sql
+2021-03-31 18:56:04.048294 (Thread-34): Parsing macros/materializations/table.sql
+2021-03-31 18:56:04.052421 (Thread-34): Parsing macros/materializations/merge.sql
+2021-03-31 18:56:04.054522 (Thread-34): Parsing macros/materializations/incremental.sql
+2021-03-31 18:56:04.063850 (Thread-34): Parsing macros/materializations/view.sql
+2021-03-31 18:56:04.066124 (Thread-34): Parsing macros/core.sql
+2021-03-31 18:56:04.069748 (Thread-34): Parsing macros/materializations/helpers.sql
+2021-03-31 18:56:04.079366 (Thread-34): Parsing macros/materializations/common/merge.sql
+2021-03-31 18:56:04.093560 (Thread-34): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-03-31 18:56:04.095347 (Thread-34): Parsing macros/materializations/snapshot/strategies.sql
+2021-03-31 18:56:04.111752 (Thread-34): Parsing macros/materializations/snapshot/snapshot.sql
+2021-03-31 18:56:04.140645 (Thread-34): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-03-31 18:56:04.145809 (Thread-34): Parsing macros/materializations/view/view.sql
+2021-03-31 18:56:04.152777 (Thread-34): Parsing macros/materializations/seed/seed.sql
+2021-03-31 18:56:04.176406 (Thread-34): Parsing macros/materializations/table/table.sql
+2021-03-31 18:56:04.184693 (Thread-34): Parsing macros/materializations/incremental/helpers.sql
+2021-03-31 18:56:04.187151 (Thread-34): Parsing macros/materializations/incremental/incremental.sql
+2021-03-31 18:56:04.196298 (Thread-34): Parsing macros/etc/is_incremental.sql
+2021-03-31 18:56:04.198700 (Thread-34): Parsing macros/etc/query.sql
+2021-03-31 18:56:04.200094 (Thread-34): Parsing macros/etc/datetime.sql
+2021-03-31 18:56:04.212505 (Thread-34): Parsing macros/etc/get_custom_alias.sql
+2021-03-31 18:56:04.213796 (Thread-34): Parsing macros/etc/get_custom_database.sql
+2021-03-31 18:56:04.215750 (Thread-34): Parsing macros/etc/get_custom_schema.sql
+2021-03-31 18:56:04.217949 (Thread-34): Parsing macros/schema_tests/not_null.sql
+2021-03-31 18:56:04.220062 (Thread-34): Parsing macros/schema_tests/accepted_values.sql
+2021-03-31 18:56:04.223666 (Thread-34): Parsing macros/schema_tests/relationships.sql
+2021-03-31 18:56:04.225622 (Thread-34): Parsing macros/schema_tests/unique.sql
+2021-03-31 18:56:04.227458 (Thread-34): Parsing macros/adapters/common.sql
+2021-03-31 18:56:04.546743 (Thread-34): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_shop.example
+
+2021-03-31 18:56:04.730704 (Thread-35): handling status request
+2021-03-31 18:56:04.731138 (Thread-35): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e4ea00>]}
+2021-03-31 18:56:04.734094 (Thread-35): sending response (<Response 8543 bytes [200 OK]>) to 10.0.31.157
+2021-03-31 18:56:13.250703 (Thread-36): handling status request
+2021-03-31 18:56:13.251152 (Thread-36): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e4e880>]}
+2021-03-31 18:56:13.254258 (Thread-36): sending response (<Response 8543 bytes [200 OK]>) to 10.0.40.149
+2021-03-31 18:56:13.465468 (Thread-37): handling status request
+2021-03-31 18:56:13.465894 (Thread-37): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e4e8b0>]}
+2021-03-31 18:56:13.469147 (Thread-37): sending response (<Response 8543 bytes [200 OK]>) to 10.0.5.203
+2021-03-31 18:56:15.310247 (Thread-38): handling cli_args request
+2021-03-31 18:56:15.310716 (Thread-38): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11cfa640>]}
+2021-03-31 18:56:16.348442 (Thread-38): sending response (<Response 138 bytes [200 OK]>) to 10.0.20.123
+2021-03-31 18:56:16.405266 (MainThread): Partial parsing not enabled
+2021-03-31 18:56:16.406822 (MainThread): Parsing macros/adapters.sql
+2021-03-31 18:56:16.437915 (MainThread): Parsing macros/catalog.sql
+2021-03-31 18:56:16.440259 (MainThread): Parsing macros/materializations/table.sql
+2021-03-31 18:56:16.444648 (MainThread): Parsing macros/materializations/merge.sql
+2021-03-31 18:56:16.447071 (MainThread): Parsing macros/materializations/incremental.sql
+2021-03-31 18:56:16.456789 (MainThread): Parsing macros/materializations/view.sql
+2021-03-31 18:56:16.459315 (MainThread): Parsing macros/core.sql
+2021-03-31 18:56:16.463214 (MainThread): Parsing macros/materializations/helpers.sql
+2021-03-31 18:56:16.472590 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-03-31 18:56:16.488298 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-03-31 18:56:16.490493 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-03-31 18:56:16.507979 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-03-31 18:56:16.545377 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-03-31 18:56:16.553607 (MainThread): Parsing macros/materializations/view/view.sql
+2021-03-31 18:56:16.563532 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-03-31 18:56:16.597551 (MainThread): Parsing macros/materializations/table/table.sql
+2021-03-31 18:56:16.609036 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-03-31 18:56:16.611358 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-03-31 18:56:16.617730 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-03-31 18:56:16.619639 (MainThread): Parsing macros/etc/query.sql
+2021-03-31 18:56:16.620891 (MainThread): Parsing macros/etc/datetime.sql
+2021-03-31 18:56:16.630472 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-03-31 18:56:16.631662 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-03-31 18:56:16.633517 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-03-31 18:56:16.635664 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-03-31 18:56:16.637708 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-03-31 18:56:16.640527 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-03-31 18:56:16.642524 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-03-31 18:56:16.644381 (MainThread): Parsing macros/adapters/common.sql
+2021-03-31 18:56:16.695802 (MainThread): Partial parsing not enabled
+2021-03-31 18:56:16.866655 (MainThread): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_shop.example
+
+2021-03-31 18:56:16.886891 (MainThread): Found 0 models, 0 tests, 0 snapshots, 0 analyses, 143 macros, 0 operations, 0 seed files, 0 sources
+2021-03-31 18:56:16.887702 (MainThread): WARNING: Nothing to do. Try checking your model configs and model specification args
+2021-03-31 18:56:17.205598 (Thread-39): handling poll request
+2021-03-31 18:56:17.206367 (Thread-39): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e119e9040>]}
+2021-03-31 18:56:17.388002 (Thread-39): sending response (<Response 10003 bytes [200 OK]>) to 10.0.23.242
+2021-03-31 18:56:20.070478 (Thread-40): handling status request
+2021-03-31 18:56:20.070967 (Thread-40): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e40a30>]}
+2021-03-31 18:56:20.074673 (Thread-40): sending response (<Response 8543 bytes [200 OK]>) to 10.0.24.76
+2021-03-31 18:56:45.505952 (Thread-41): handling status request
+2021-03-31 18:56:45.506481 (Thread-41): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e119e9cd0>]}
+2021-03-31 18:56:45.509637 (Thread-41): sending response (<Response 8543 bytes [200 OK]>) to 10.0.29.51
+2021-03-31 18:56:46.467525 (Thread-42): handling run_sql request
+2021-03-31 18:56:46.467944 (Thread-42): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e119e9d90>]}
+2021-03-31 18:56:47.550468 (Thread-42): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.54
+2021-03-31 18:56:47.571632 (MainThread): Acquiring new snowflake connection "rpc.jaffle_shop.request".
+2021-03-31 18:56:47.590017 (MainThread): Found 0 models, 0 tests, 0 snapshots, 0 analyses, 143 macros, 0 operations, 0 seed files, 0 sources
+2021-03-31 18:56:47.590543 (Thread-1): Acquiring new snowflake connection "rpc.jaffle_shop.request".
+2021-03-31 18:56:47.590708 (Thread-1): Compiling rpc.jaffle_shop.request
+2021-03-31 18:56:47.604475 (Thread-1): finished collecting timing info
+2021-03-31 18:56:47.605538 (Thread-1): Using snowflake connection "rpc.jaffle_shop.request".
+2021-03-31 18:56:47.605605 (Thread-1): On rpc.jaffle_shop.request: with customers as (
+
+    select
+        id as customer_id,
+        first_name,
+        last_name
+
+    from raw.jaffle_shop.customers
+
+),
+
+orders as (
+
+    select
+        id as order_id,
+        user_id as customer_id,
+        order_date,
+        status
+
+    from raw.jaffle_shop.orders
+
+),
+
+customer_orders as (
+
+    select
+        customer_id,
+
+        min(order_date) as first_order_date,
+        max(order_date) as most_recent_order_date,
+        count(order_id) as number_of_orders
+
+    from orders
+
+    group by 1
+
+),
+
+
+final as (
+
+    select
+        customers.customer_id,
+        customers.first_name,
+        customers.last_name,
+        customer_orders.first_order_date,
+        customer_orders.most_recent_order_date,
+        coalesce(customer_orders.number_of_orders, 0) as number_of_orders
+
+    from customers
+
+    left join customer_orders using (customer_id)
+
+)
+
+select * from final
+limit 500
+/* limit added automatically by dbt cloud */
+2021-03-31 18:56:47.605661 (Thread-1): Opening a new connection, currently in state init
+2021-03-31 18:56:48.227871 (Thread-43): handling poll request
+2021-03-31 18:56:48.228404 (Thread-43): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e1d3d0>]}
+2021-03-31 18:56:48.230712 (Thread-43): sending response (<Response 3940 bytes [200 OK]>) to 10.0.12.206
+2021-03-31 18:56:48.548154 (Thread-1): SQL status: SUCCESS 100 in 0.94 seconds
+2021-03-31 18:56:48.552644 (Thread-1): finished collecting timing info
+2021-03-31 18:56:48.553161 (Thread-1): On rpc.jaffle_shop.request: Close
+2021-03-31 18:56:49.791566 (Thread-44): handling poll request
+2021-03-31 18:56:49.792119 (Thread-44): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '77bae4f6-9832-4458-8a6a-2d45ea8a8709', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e12768a60>]}
+2021-03-31 18:56:49.797244 (Thread-44): sending response (<Response 13540 bytes [200 OK]>) to 10.0.24.4
+2021-03-31 19:00:20.262584 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e19f3a970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e131051f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e1311e610>]}
+2021-03-31 19:00:20.264338 (MainThread): Flushing usage events
+2021-03-31 19:00:20.393806 (MainThread): Runtime Error
+  Syntax error near line 37
+  ------------------------------
+  34 |   jaffle_shop:
+  35 |     +materialized: table
+  36 |       # Applies to all files under models/example/
+  37 |       example:
+  38 |           materialized: view
+  
+  Raw Error:
+  ------------------------------
+  while parsing a block mapping
+    in "<unicode string>", line 35, column 5:
+          +materialized: table
+          ^
+  expected <block end>, but found '<block mapping start>'
+    in "<unicode string>", line 37, column 7:
+            example:
+            ^
+2021-03-31 19:01:12.597991 (MainThread): Running with dbt=0.18.1
+2021-03-31 19:01:12.639758 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, defer=None, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2021-03-31 19:01:12.658402 (MainThread): Tracking: tracking
+2021-03-31 19:01:12.658601 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e1a29c430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e127cc6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e1280f5e0>]}
+2021-03-31 19:01:12.658869 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=16
+2021-03-31 19:01:12.660741 (MainThread): Supported methods: ['cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'status', 'test']
+2021-03-31 19:01:12.661365 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2021-03-31 19:01:12.690508 (Thread-45): For key jaffle_shop, hash mismatch (FileHash(name='sha256', checksum='54eaecc3d9394b9a26a6d467a02b05b00d2493557a4396d094e2b9fcd9acbb1e') -> FileHash(name='sha256', checksum='2ed8f17452840178cd64f3f4383845abdb5131045af7d5199c1337f96acaa379')), cache invalidated
+2021-03-31 19:01:12.692149 (Thread-45): Parsing macros/adapters.sql
+2021-03-31 19:01:12.731429 (Thread-45): Parsing macros/catalog.sql
+2021-03-31 19:01:12.734209 (Thread-45): Parsing macros/materializations/table.sql
+2021-03-31 19:01:12.738458 (Thread-45): Parsing macros/materializations/merge.sql
+2021-03-31 19:01:12.741305 (Thread-45): Parsing macros/materializations/incremental.sql
+2021-03-31 19:01:12.753812 (Thread-45): Parsing macros/materializations/view.sql
+2021-03-31 19:01:12.757951 (Thread-45): Parsing macros/core.sql
+2021-03-31 19:01:12.762473 (Thread-45): Parsing macros/materializations/helpers.sql
+2021-03-31 19:01:12.775825 (Thread-45): Parsing macros/materializations/common/merge.sql
+2021-03-31 19:01:12.798016 (Thread-45): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-03-31 19:01:12.800207 (Thread-45): Parsing macros/materializations/snapshot/strategies.sql
+2021-03-31 19:01:12.832475 (Thread-45): Parsing macros/materializations/snapshot/snapshot.sql
+2021-03-31 19:01:12.883886 (Thread-45): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-03-31 19:01:12.892952 (Thread-45): Parsing macros/materializations/view/view.sql
+2021-03-31 19:01:12.905142 (Thread-45): Parsing macros/materializations/seed/seed.sql
+2021-03-31 19:01:12.943981 (Thread-45): Parsing macros/materializations/table/table.sql
+2021-03-31 19:01:12.956094 (Thread-45): Parsing macros/materializations/incremental/helpers.sql
+2021-03-31 19:01:12.959896 (Thread-45): Parsing macros/materializations/incremental/incremental.sql
+2021-03-31 19:01:12.970863 (Thread-45): Parsing macros/etc/is_incremental.sql
+2021-03-31 19:01:12.973884 (Thread-45): Parsing macros/etc/query.sql
+2021-03-31 19:01:12.975998 (Thread-45): Parsing macros/etc/datetime.sql
+2021-03-31 19:01:12.993526 (Thread-45): Parsing macros/etc/get_custom_alias.sql
+2021-03-31 19:01:12.995478 (Thread-45): Parsing macros/etc/get_custom_database.sql
+2021-03-31 19:01:12.998717 (Thread-45): Parsing macros/etc/get_custom_schema.sql
+2021-03-31 19:01:13.002449 (Thread-45): Parsing macros/schema_tests/not_null.sql
+2021-03-31 19:01:13.005327 (Thread-45): Parsing macros/schema_tests/accepted_values.sql
+2021-03-31 19:01:13.019228 (Thread-45): Parsing macros/schema_tests/relationships.sql
+2021-03-31 19:01:13.026077 (Thread-45): Parsing macros/schema_tests/unique.sql
+2021-03-31 19:01:13.036545 (Thread-45): Parsing macros/adapters/common.sql
+2021-03-31 19:01:13.108065 (Thread-45): For key jaffle_shop, hash mismatch (FileHash(name='sha256', checksum='54eaecc3d9394b9a26a6d467a02b05b00d2493557a4396d094e2b9fcd9acbb1e') -> FileHash(name='sha256', checksum='2ed8f17452840178cd64f3f4383845abdb5131045af7d5199c1337f96acaa379')), cache invalidated
+2021-03-31 19:01:13.320967 (Thread-45): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_shop
+
+2021-03-31 19:01:13.417740 (Thread-46): handling status request
+2021-03-31 19:01:13.418246 (Thread-46): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11e10430>]}
+2021-03-31 19:01:13.421370 (Thread-46): sending response (<Response 9517 bytes [200 OK]>) to 10.0.4.54
+2021-03-31 19:01:26.042439 (Thread-47): handling status request
+2021-03-31 19:01:26.042963 (Thread-47): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e1280f850>]}
+2021-03-31 19:01:26.046192 (Thread-47): sending response (<Response 9517 bytes [200 OK]>) to 10.0.46.218
+2021-03-31 19:01:26.890694 (Thread-48): handling status request
+2021-03-31 19:01:26.891148 (Thread-48): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e1280fac0>]}
+2021-03-31 19:01:26.894281 (Thread-48): sending response (<Response 9517 bytes [200 OK]>) to 10.0.8.158
+2021-03-31 19:01:29.993897 (Thread-49): handling cli_args request
+2021-03-31 19:01:29.994444 (Thread-49): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11df8c70>]}
+2021-03-31 19:01:31.262754 (Thread-49): sending response (<Response 138 bytes [200 OK]>) to 10.0.12.206
+2021-03-31 19:01:31.357281 (MainThread): Partial parsing not enabled
+2021-03-31 19:01:31.359660 (MainThread): Parsing macros/adapters.sql
+2021-03-31 19:01:31.412031 (MainThread): Parsing macros/catalog.sql
+2021-03-31 19:01:31.415499 (MainThread): Parsing macros/materializations/table.sql
+2021-03-31 19:01:31.422879 (MainThread): Parsing macros/materializations/merge.sql
+2021-03-31 19:01:31.426454 (MainThread): Parsing macros/materializations/incremental.sql
+2021-03-31 19:01:31.442527 (MainThread): Parsing macros/materializations/view.sql
+2021-03-31 19:01:31.446422 (MainThread): Parsing macros/core.sql
+2021-03-31 19:01:31.452764 (MainThread): Parsing macros/materializations/helpers.sql
+2021-03-31 19:01:31.465095 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-03-31 19:01:31.490091 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-03-31 19:01:31.493240 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-03-31 19:01:31.522504 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-03-31 19:01:31.572978 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-03-31 19:01:31.582552 (MainThread): Parsing macros/materializations/view/view.sql
+2021-03-31 19:01:31.593913 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-03-31 19:01:31.628740 (MainThread): Parsing macros/materializations/table/table.sql
+2021-03-31 19:01:31.636129 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-03-31 19:01:31.638776 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-03-31 19:01:31.645620 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-03-31 19:01:31.647396 (MainThread): Parsing macros/etc/query.sql
+2021-03-31 19:01:31.648633 (MainThread): Parsing macros/etc/datetime.sql
+2021-03-31 19:01:31.659624 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-03-31 19:01:31.660695 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-03-31 19:01:31.662598 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-03-31 19:01:31.664851 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-03-31 19:01:31.666727 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-03-31 19:01:31.669591 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-03-31 19:01:31.671861 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-03-31 19:01:31.673944 (MainThread): Parsing macros/adapters/common.sql
+2021-03-31 19:01:31.733274 (MainThread): Partial parsing not enabled
+2021-03-31 19:01:31.961285 (MainThread): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.jaffle_shop
+
+2021-03-31 19:01:31.985173 (MainThread): Found 0 models, 0 tests, 0 snapshots, 0 analyses, 143 macros, 0 operations, 0 seed files, 0 sources
+2021-03-31 19:01:31.986099 (MainThread): WARNING: Nothing to do. Try checking your model configs and model specification args
+2021-03-31 19:01:32.253743 (Thread-50): handling poll request
+2021-03-31 19:01:32.254533 (Thread-50): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11b378b0>]}
+2021-03-31 19:01:32.261117 (Thread-50): sending response (<Response 9886 bytes [200 OK]>) to 10.0.37.7
+2021-03-31 19:01:35.071196 (Thread-51): handling poll request
+2021-03-31 19:01:35.071764 (Thread-51): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11a623a0>]}
+2021-03-31 19:01:35.073164 (Thread-51): sending response (<Response 409 bytes [200 OK]>) to 10.0.12.206
+2021-03-31 19:01:36.558822 (Thread-52): handling status request
+2021-03-31 19:01:36.559449 (Thread-52): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11a62640>]}
+2021-03-31 19:01:36.564575 (Thread-52): sending response (<Response 9517 bytes [200 OK]>) to 10.0.44.81
+2021-03-31 19:02:20.784437 (Thread-53): handling status request
+2021-03-31 19:02:20.785022 (Thread-53): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f80e1af3-0f34-47d4-ba9f-1336e3383bf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e11a62970>]}
+2021-03-31 19:02:20.790427 (Thread-53): sending response (<Response 9517 bytes [200 OK]>) to 10.0.0.221
