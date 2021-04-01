@@ -8,4 +8,10 @@ sources:
     tables:
       - name: orders
       - name: customers
-      - name: payments
+
+  - name: jaffle_shop_stripe
+    description: 'Elvis first use of source with stripe'
+    database: raw
+    schema: stripe
+    tables:
+      - name: payment

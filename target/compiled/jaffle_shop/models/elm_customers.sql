@@ -1,12 +1,12 @@
 
 with customers as (
-    select * from analytics.analytics.stg_elm_customers
+    select * from analytics.analytics_analytics.stg_elm_customers
 ),
 orders as (
-    select * from analytics.analytics.stg_elm_orders
+    select * from analytics.analytics_analytics.stg_elm_orders
 ),
 payments as (
-    select * from analytics.analytics.stg_elm_payments
+    select * from analytics.analytics_analytics.stg_elm_payments
 ),customer_payments as
 (
     select order_id, sum(amount) as amount

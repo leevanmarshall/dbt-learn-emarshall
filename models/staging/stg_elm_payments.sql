@@ -3,4 +3,4 @@ select orderid as order_id
        ,status
        ,case when lower(status) = 'success' then amount else (-1) * (amount) end/ 100 as amount
        ,created
-from  {{ source('jaffle_shop', 'payment') }}
+from {{source ('jaffle_shop_stripe','payment')}}
