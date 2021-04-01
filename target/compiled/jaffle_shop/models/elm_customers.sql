@@ -1,3 +1,4 @@
+
 with customers as (
     select * from analytics.analytics.stg_elm_customers
 ),
@@ -32,7 +33,7 @@ final as (
         customer_orders.first_order_date,
         customer_orders.most_recent_order_date,
         coalesce(customer_orders.number_of_orders, 0) as number_of_orders,
-        coalesce(customer_orders.totalPayment, 0) as totalPayment
+        coalesce(customer_orders.totalPayment, 0) as lifetime_value
     from customers
     left join customer_orders using (customer_id)
 )
