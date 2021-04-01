@@ -1,6 +1,6 @@
 
 
-      create or replace transient table analytics.analytics_analytics.stg_elm_payments  as
+      create or replace transient table analytics.analytics.stg_elm_payments  as
       (select orderid as order_id
        ,PaymentMethod
        ,status

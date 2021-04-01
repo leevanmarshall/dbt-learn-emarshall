@@ -1,6 +1,6 @@
 
 
-      create or replace transient table analytics.analytics_analytics.stg_elm_orders  as
+      create or replace transient table analytics.analytics.stg_elm_orders  as
       (select
     id as order_id,
     user_id as customer_id,
